@@ -8,7 +8,7 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68deg, #000000 16.62%, #180037 85.61%);
+    background: linear-gradient(68deg, #0C0043 16.62%, #003585 85.61%);
 }
 
 header {
@@ -28,7 +28,7 @@ header {
 }
 
 .header-menu-item {
-    color: #00EED7;
+    color: #F9FDFD;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -40,7 +40,7 @@ header {
 
 .content {
     margin-bottom: 48px;
-    border-top: 0.4px solid #00EED7;
+    border-top: 0.4px solid #F9FDFD;
 }
 
 .main-content {
@@ -56,14 +56,14 @@ header {
 }
 
 .main-content-text-title {
-    color: #00EED7;
+    color: #F9FDFD;
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 64px;
 }
 
 .main-content-text-sub-title {
-    color: #035DA2;
+    color: #00FBD5;
     font-weight: 400;
     font-family: 'Sarala', sans-serif;
     font-size: 24px;
@@ -74,16 +74,16 @@ header {
     height: 80px;
     border: none;
     border-radius: 20px;
-    background-color: #00EED7;
+    background-color: #F9FDFD;
     box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
-    color: #035DA2;
+    color: #006BAA;
     font-family: 'Sarala', sans-serif;
     font-size: 24px;
 }
 
 .main-content-text-button:hover{
-    background-color: #035DA2;
-    color: #00EED7;
+    background-color: #006BAA;
+    color: #F9FDFD;
 }
 
 .main-content-image {
@@ -100,16 +100,16 @@ header {
 }
 
 .secondary-content-title {
-    color: #00EED7;
+    color: #F9FDFD;
     font-family: 'Righteous', cursive;
     font-size: 24px;
-    border-top: 0.4px solid #00EED7;
+    border-top: 0.4px solid #F9FDFD;
     padding-top: 48px;
     margin-bottom: 16px;
 }
 
 .secondary-content-paragraph {
-    color: #035DA2;
+    color: #00FBD5;
     font-weight: 300;
     font-family: 'Sarala', sans-serif;
     font-size: 18px;
@@ -117,10 +117,10 @@ header {
 
 footer {
     padding: 32px;
-    border-top: 0.4px solid #00EED7;
+    border-top: 0.4px solid #F9FDFD;
     display: block;
     margin: 0 auto;
-    color: #073B84;
+    color: #006BAA;
     text-align: center;
     font-family: 'Righteous', cursive;
     font-size: 25px;
