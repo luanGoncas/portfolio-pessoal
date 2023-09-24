@@ -4,39 +4,322 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Página de apresentação profissinal de Luan Santos Gonçalves">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         <title>Luan Santos Gonçalves - Portfólio</title>
     </head>
 
     <body>
         <header>
-            <img class="header-image" src="generic-dev-logo-transparent.png" width="62px" height="62px" alt="generic developer logo">
+            <img class="header-image" src="assets/img/generic-dev-logo-transparent.png" width="62px" height="62px" alt="generic developer logo">
             <nav class="header-menu">
-                <a class="header-menu-item" href="https://www.linkedin.com/in/luangoncas/">LinkedIn</a>
-                <a class="header-menu-item" href="https://github.com/luanGoncas">GitHub</a>
-                <a class="header-menu-item" href="">Resumo</a>
-                <a class="header-menu-item" href="">Opções</a>
+                <a class="header-menu-item" href="">Home</a>
+                <a class="header-menu-item" href="#resumo">Resumo</a>
+                <a class="header-menu-item" href="#formacao-academica">Formação Acadêmica</a>
+                <a class="header-menu-item" href="#experiencia-profissional">Experiência Profissional</a>
+                <a class="header-menu-item" href="#trabalhos-voluntarios">Trabalhos Voluntários</a>
             </nav>
         </header>
 
         <main class="content">
-            <section class="main-content">
+            <section class="main-content flex">
                 <div class="main-content-text">
                     <h1 class="main-content-text-title">Luan Santos Gonçalves</h1>
                     <h2 class="main-content-text-sub-title">"A persistência é o caminho do êxito"</h2>
-                    <button class="main-content-text-button">Fale comigo!</button>
+                    <a href="#contato"><button class="main-content-text-button">Fale comigo!</button></a>
                 </div>
-                <img class="main-content-image" src="foto.jpg" width="394.13px" alt="Foto de perfil de Luan Santos Gonçalves">
+                <img class="main-content-image" src="assets/img/foto.jpg" width="394.13px" alt="Foto de perfil de Luan Santos Gonçalves">
             </section>
 
-            <section class="secondary-content">
-                <h3 class="secondary-content-title">Resumo Profissional</h3>
-                <p class="secondary-content-paragraph">Recém formado em <strong>Engenharia de Computação</strong> pelo <strong>IFMG <i>Campus</i> Bambuí</strong></p>
-                <p class="secondary-content-paragraph">Habilidades em <strong>Git</strong>, <strong>Linux</strong> e várias linguagens de programação, incluindo <strong>C</strong>, <strong>C++</strong>, <strong>Python</strong>, <strong>JavaScript</strong>, <strong>PHP</strong>, <strong>Java</strong>, e muito mais!</p>
+            <section class="secondary-content flex">
+                <h3 id="resumo" class="secondary-content-title">Resumo Profissional</h3>
+                <p class="secondary-content-paragraph">Profissional com experiência em mercado, e que busca agregar valor em sua atuação e desenvolver continuamente suas habilidades</p>
+                <p class="secondary-content-paragraph">Comprometido com a aprendizagem constante e a procura de desafios que possam impulsionar seu crescimento profissional</p>
                 <p class="secondary-content-paragraph">Trabalho de conclusão de curso que combinou o interesse em desenvolvimento de jogos através da <strong>Godot Engine</strong>, visando criar um jogo educacional inovador.</p>
                 <p class="secondary-content-paragraph">Sólida formação técnica e experiência prática que o capacitam a enfrentar desafios com <strong>dedicação</strong>, <strong>aprendizado contínuo</strong> e <strong>paixão por soluções criativas</strong>.</p>
             </section>
         </main>
+
+        <section id="regular-content">
+            <div class="container">
+                <section>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div id="formacao-academica" class="widget_title_text">Formação Acadêmica</div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body flex">
+                                <article>
+                                    <a href="">
+                                        <div class="news_data">
+                                            <div class="news_posted_at">FEVEREIRO DE 2015</div>
+                                            <div class="news_comments">AGOSTO DE 2023</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                            <img src="assets/img/eng-computacao.jpeg" alt="">
+                                        </div>
+                                        <div class="news_title">
+                                            Bacharel em Engenharia de Computação
+                                        </div>
+                                        <div class="news_resume">
+                                            O curso de Engenharia da Computação permitiu me capacitar
+                                                para projetar e desenvolver sistemas computacionais para
+                                                uma ampla gama de dispositivos eletrônicos. Durante a graduação, 
+                                                estudei matérias de engenharia, eletrônica, programação e 
+                                                circuitos, além de fazer estágios e escolher disciplinas especí
+                                                ficas. No projeto de conclusão de curso, desenvolvi um jogo eletrônico
+                                                para o suporte de aprendizagem de programação. Foi uma formação versátil 
+                                                que abrangiu áreas como <i>software</i>, automação industrial e redes de computadores.
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div id="experiencia-profissional" class="widget_title_text">Experiência Profissional</div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body flex">
+                                <article>
+                                    <a href="">
+                                        <div class="news_data">
+                                            <div class="news_posted_at">JANEIRO DE 2023</div>
+                                            <div class="news_comments">MARÇO DE 2023</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                            <img src="assets/img/ifmg-bambui.jpg" alt="">
+                                        </div>
+                                        <div class="news_title">
+                                            Estagiário em desenvolvimento <i>web</i> - IFMG <i>Campus</i> Bambuí
+                                        </div>
+                                        <div class="news_resume">
+                                            No período deste estágio, foi abordada a configuração e aplicação de um servidor,
+                                             com foco no desenvolvimento de um <i>framework</i> para autenticação centralizada
+                                              no Active Directory do Windows Server no <i>Campus</i> do IFMG em Bambuí.
+                                               Essa iniciativa visou melhorar a segurança e eficiência no acesso aos
+                                                sistemas da instituição, proporcionando uma autenticação centralizada
+                                                 e simplificada para alunos e servidores. Além disso, um aspecto crucial
+                                                  do projeto foi a documentação detalhada da aplicação, que garantiu
+                                                   a transparência e a facilidade de manutenção do sistema no futuro.
+                                        </div>
+                                    </a>
+                                </article>
+    
+                                <article>
+                                    <a href="">
+                                        <div class="news_data">
+                                            <div class="news_posted_at">JULHO DE 2021</div>
+                                            <div class="news_comments">JUNHO DE 2022</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                            <img src="assets/img/computer-vision.jpg" alt="">
+                                        </div>
+                                        <div class="news_title">
+                                            Bolsista de projeto de pesquisa - Pix Force
+                                        </div>
+                                        <div class="news_resume">
+                                            Enquanto estive nessa empresa, trabalhei na classificação
+                                             da qualidade do coque através de visão computacional como base.
+                                              Uma parte fundamental dessa área envolveu a preparação dos dados
+                                               e das imagens para alimentar redes neurais. Isso foi realizado
+                                                através de bibliotecas de Python como OpenCV e Pillow,
+                                                 que permitem o processamento e a manipulação de imagens de
+                                                  forma eficaz. Para a construção dos modelos de <i>machine learning</i>,
+                                                utilizei duas das principais bibliotecas: PyTorch e TensorFlow.
+                                                 Essas ferramentas foram essenciais para o treinamento e teste dos modelos
+                                                capazes de classificar a qualidade do coque com base nas imagens processadas. 
+                                                Trabalhei com diversos outros projetos nessa mesma linha.
+                                        </div>
+                                    </a>
+                                </article>
+    
+                                <article>
+                                    <a href="">
+                                        <div class="news_data">
+                                            <div class="news_posted_at">MAIO DE 2021</div>
+                                            <div class="news_comments">JULHO DE 2021</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                            <img src="assets/img/wordpress.png" alt="">
+                                        </div>
+                                        <div class="news_title">
+                                            Desenvolvedor <i>web front-end</i> - Grupo V3
+                                        </div>
+                                        <div class="news_resume">
+                                            Durante o tempo nessa empresa, foquei no desenvolvimento de 
+                                            interfaces <i>web</i> utilizando a plataforma WordPress.
+                                             Para otimizar o design e funcionalidade, aproveitei plugins
+                                              secundários e aprimorei a estética com o Elementor.
+                                               Além disso, realizei a gerência de bancos de dados SQL
+                                                por meio do PHPMyAdmin e configurei domínios,
+                                                 incluindo a área de administração,
+                                                  com os provedores KingHost e GoDaddy.
+                                                 Isso resultou em websites eficazes e atraentes,
+                                                 o que proporciou uma experiência de usuário aprimorada.
+                                        </div>
+                                    </a>
+                                </article>
+    
+                                <article>
+                                    <a href="">
+                                        <div class="news_data">
+                                            <div class="news_posted_at">MAIO DE 2017</div>
+                                            <div class="news_comments">MAIO DE 2019</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                            <img src="assets/img/ifmg-bambui.jpg" alt="">
+                                        </div>
+                                        <div class="news_title">
+                                            Estagiário de TI - IFMG <i>Campus</i> Bambuí
+                                        </div>
+                                        <div class="news_resume">
+                                            Durante o tempo estágio no setor de TI do <i>Campus</i>, realizei
+                                             atendimento ao cliente por meio de suporte remoto e help desk
+                                              através de sistemas como o GLPI. Também conduzi vistorias em laboratórios
+                                               de informática para identificar necessidades de manutenção. Além disso,
+                                                cuidei da manutenção de computadores, instalei <i>software</i> e ofereci
+                                                 treinamento aos usuários. Gerenciei a infraestrutura de rede e telefonia,
+                                                  com foco em cabeamento estruturado. Prestei suporte aos usuários para
+                                                   questões relacionadas à internet e impressão. E, por fim, monitorei o
+                                                    tráfego de rede usando o Zabbix para garantir um funcionamento eficaz
+                                                     da infraestrutura do <i>Campus</i>.
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div id="trabalhos-voluntarios" class="widget_title_text">Trabalhos Voluntários</div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body flex">
+                                <article>
+                                    <a href="">
+                                        <div class="news_data">
+                                            <div class="news_posted_at">NOVEMBRO DE 2020</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                            <img src="assets/img/eletronica.jpg" alt="">
+                                        </div>
+                                        <div class="news_title">
+                                            Ministrante de minicurso de eletrônica básica - System
+                                        </div>
+                                        <div class="news_resume">
+                                            Ministrei um minicurso de eletrônica básica pelo grupo de
+                                            estudos System, onde ensinei conceitos fundamentais, como
+                                             circuitos elétricos, componentes eletrônicos (resistores,
+                                              capacitores, diodos, transistores), leis de Ohm e de Kirchhoff,
+                                               noções de tensão e corrente, além de introduzir os princípios
+                                                de eletrônica digital e analógica.
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Hard Skills</div>
+                        <div class="widget_title_bar"></div>
+                        <div class="widget_hard_skills">
+                            <div class="widget_departments_box">
+                                <img src="assets/img/bootstrap.png" alt="bootstrap logo">
+                            </div>
+                            <div class="widget_departments_box">
+                                <img src="assets/img/c-linguagem.png" alt="linguagem c logo">
+                            </div>
+                        </div>
+                        <div class="widget_hard_skills">
+                            <div class="widget_departments_box">
+                                <img src="assets/img/c-.png" alt="logo linguagem c++">
+                            </div>
+                            <div class="widget_departments_box">
+                                <img src="assets/img/css3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="widget_hard_skills">
+                            <div class="widget_departments_box">
+                                <img src="assets/img/git.png" alt="">
+                            </div>
+                            <div class="widget_departments_box">
+                                <img src="assets/img/github.png" alt="">
+                            </div>
+                        </div>
+                        <div class="widget_hard_skills">
+                            <div class="widget_departments_box">
+                                <img src="assets/img/html5.png" alt="">
+                            </div>
+                            <div class="widget_departments_box">
+                                <img src="assets/img/java.png" alt="">
+                            </div>
+                        </div>
+                        <div class="widget_hard_skills">
+                            <div class="widget_departments_box">
+                                <img src="assets/img/javascript.png" alt="">
+                            </div>
+                            <div class="widget_departments_box">
+                                <img src="assets/img/linux.png" alt="">
+                            </div>
+                        </div>
+                        <div class="widget_hard_skills">
+                            <div class="widget_departments_box">
+                                <img src="assets/img/mysql.png" alt="">
+                            </div>
+                            <div class="widget_departments_box">
+                                <img src="assets/img/php.png" alt="">
+                            </div>
+                        </div>
+                        <div class="widget_hard_skills">
+                            <div class="widget_departments_box">
+                                <img src="assets/img/postgresql.png" alt="">
+                            </div>
+                            <div class="widget_departments_box">
+                                <img src="assets/img/python.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div id="contato" class="widget_title_text">Meios de Contato</div>
+                        <div class="widget_title_bar"></div>
+                        <div class="appointment_message">
+                            Entre em contato comigo das seguintes formas:
+                        </div>
+                        <div class="appointment_message appointment_item">
+                            <img src="assets/img/github-icon.png" alt="">
+                            &nbsp
+                            &nbsp
+                            <div>
+                                GitHub: <strong><a href="https://github.com/luanGoncas">Clique Aqui!</a></strong>
+                            </div>
+                        </div>
+                        <div class="appointment_message appointment_item">
+                            <img src="assets/img/outlook.png" alt="">
+                            &nbsp
+                            &nbsp
+                            <div>
+                                E-mail: <strong>luansantos95@hotmail.com</strong>
+                            </div>
+                        </div>
+                        <div class="appointment_message appointment_item">
+                            <img src="assets/img/linkedin.png" alt="">
+                            &nbsp
+                            &nbsp
+                            <div>
+                                LinkedIn: <strong><a href="https://www.linkedin.com/in/luangoncas/">Clique aqui</a></strong>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </aside>
+        </section>
 
         <footer>
             <p>Todos os direitos reservados. Baseado e adaptado do <i>template</i> de Rafaella Ballerini.</p>
