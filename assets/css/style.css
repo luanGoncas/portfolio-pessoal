@@ -140,7 +140,6 @@ header {
 .widget {
     width: 700px;
     display: flex;
-    
 }
 
 .widget_title {
@@ -275,303 +274,131 @@ footer {
     flex-wrap: wrap;
 }
 
-@media (max-width: 325px) {
-    header, .header-menu {
+@media screen and (min-width: 320px) and (max-width: 376px) {
+    header {
+        flex-direction: column;
+    }
+
+    .header-menu {
         flex-direction: column;
         text-align: center;
-        justify-content: center;
     }
 
     .main-content-text-title {
+        font-size: 24px;
         margin-top: 12px;
         text-align: center;
-        justify-content: center;
-        font-size: 32px;
     }
 
     .main-content-text-sub-title {
+        font-size: 16px;
         text-align: center;
-        justify-content: center;
-        font-size: 18px;
     }
 
     .main-content-text a {
-        justify-content: center;
         text-align: center;
-    }
-
-    .main-content-text-button {
-        width: 150px;
-        font-size: 18px;
     }
 
     .main-content-image {
-        width: 300px;
-    }
-
-    section {
         max-width: 300px;
-    }
-
-    .secondary-content {
-        text-align: center;
-        justify-content: center;
     }
 
     .secondary-content-paragraph {
-        font-size: 16px;
+        text-align: center;
+        font-size: 12px;
     }
 
-    #regular-content {
-        flex-wrap: wrap;
+    .widget_body {
+        flex-direction: column;
         max-width: 300px;
     }
 
-    .widget {
-        max-width: 300px;
-        overflow-x: hidden;
-    }
-
-    .widget_title {
-        max-width: 300px;
-    }
-
-    .news_thumbnail, .news_title {
+    article .news_thumbnail {
         max-width: 250px;
     }
 
     article .news_title {
-        font-size: 18px;
+        max-width: 250px;
+        font-size: 24px;
     }
 
     article .news_resume {
         max-width: 250px;
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 14px;
     }
 }
 
-@media (max-width: 380px) {
-    header, .header-menu {
+@media screen and (min-width: 376px) and (max-width: 426px) {
+    header {
+        flex-direction: column;
+    }
+
+    .header-menu {
         flex-direction: column;
         text-align: center;
-        justify-content: center;
-    }
-
-    main {
-        display: flex;
-    }
-
-    .content {
-        flex-direction: column;
-        align-items: center;
     }
 
     .main-content-text-title {
+        font-size: 32px;
         margin-top: 12px;
         text-align: center;
-        justify-content: center;
-        font-size: 32px;
     }
 
     .main-content-text-sub-title {
-        text-align: center;
-        justify-content: center;
         font-size: 18px;
+        text-align: center;
     }
 
     .main-content-text a {
-        justify-content: center;
         text-align: center;
-    }
-
-    .main-content-text-button {
-        width: 150px;
-        font-size: 18px;
     }
 
     .main-content-image {
-        width: 350px;
-    }
-
-    section {
-        max-width: 300px;
-    }
-
-    .secondary-content {
-        text-align: center;
-        justify-content: center;
+        max-width: 350px;
     }
 
     .secondary-content-paragraph {
-        font-size: 16px;
+        text-align: center;
+        font-size: 12px;
     }
 
     .widget {
-        max-width: 350px;
-        overflow-x: hidden;
-    }
-
-    .widget_title {
+        flex-direction: column;
         max-width: 350px;
     }
 
-    .news_thumbnail, .news_title {
-        max-width: 350px;
-    }
-
-    article .news_title {
+    footer {
         font-size: 18px;
-    }
-
-    article .news_resume {
-        max-width: 350px;
-    }
-
-    #regular-content {
-        flex-wrap: wrap;
     }
 }
 
-@media (max-width: 430px) {
-    header, .header-menu {
+@media screen and (min-width: 426px) and (max-width: 769px) {
+    header {
+        flex-direction: column;
+    }
+
+    .header-menu {
         flex-direction: column;
         text-align: center;
-        justify-content: center;
     }
-
-    main {
-        display: flex;
-    }
-
-    .content {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .main-content-text-title {
         margin-top: 12px;
         text-align: center;
-        justify-content: center;
-        font-size: 32px;
     }
 
     .main-content-text-sub-title {
         text-align: center;
-        justify-content: center;
-        font-size: 18px;
     }
 
     .main-content-text a {
-        justify-content: center;
         text-align: center;
-    }
-
-    .main-content-text-button {
-        width: 300px;
-        font-size: 18px;
-    }
-
-    section {
-        max-width: 400px;
-    }
-
-    .secondary-content {
-        text-align: center;
-        justify-content: center;
     }
 
     .secondary-content-paragraph {
-        font-size: 16px;
-    }
-
-    #regular-content {
-        flex-wrap: wrap;
-    }
-
-    .widget {
-        max-width: 400px;
-        overflow-x: hidden;
-    }
-
-    .widget_title {
-        max-width: 350px;
-    }
-
-    .news_thumbnail, .news_title {
-        max-width: 350px;
-    }
-
-    article .news_title {
-        font-size: 18px;
-    }
-
-    article .news_resume {
-        max-width: 350px;
-    }
-}
-
-@media (max-width: 773px) {
-    header, .header-menu {
-        flex-direction: column;
         text-align: center;
-        justify-content: center;
-    }
-
-    main {
-        display: flex;
-    }
-
-    .content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .main-content-text-title {
-        margin-top: 12px;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .main-content-text-sub-title {
-        text-align: center;
-        justify-content: center;
-    }
-
-    .main-content-text a {
-        justify-content: center;
-        text-align: center;
-    }
-
-    .main-content-text-button {
-        width: 300px;
-    }
-
-    section {
-        max-width: 700px;
-    }
-
-    .secondary-content {
-        text-align: center;
-        justify-content: center;
-    }
-
-    #regular-content {
-        flex-wrap: wrap;
-    }
-
-    .widget {
-        max-width: 700px;
-        overflow-x: hidden;
-    }
-
-    .widget_title {
-        max-width: 750px;
-    }
-
-    .news_thumbnail, .news_title {
-        max-width: 750px;
-    }
-
-    article .news_resume {
-        max-width: 750px;
     }
 }
