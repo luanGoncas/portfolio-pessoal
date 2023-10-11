@@ -341,6 +341,7 @@ footer {
 
     #regular-content {
         margin-left: 0;
+        flex-wrap: wrap;
     }
 
     footer {
@@ -411,6 +412,7 @@ footer {
 
     #regular-content {
         margin-left: 0;
+        flex-wrap: wrap;
     }
 
     article .news_thumbnail {
@@ -467,5 +469,9 @@ footer {
 
     article .news_resume {
         font-size: 18px;
+    }
+
+    #regular-content {
+        flex-wrap: wrap;
     }
 }
